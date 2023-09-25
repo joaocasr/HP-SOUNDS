@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.harrypotter.potteraudio">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PottermoreDEMOrpg"
+        tools:targetApi="31">
+        <activity
+            android:name=".DormitoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OutsideOllivanderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InsideGringottsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DumbledoresGabinetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OllivanderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TomsBarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GringottsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LibraryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChamberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MoaningMyrtleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForbidenForestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuidditchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClockTowerCourtyardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".YardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TransigurationClassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdvinationClassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PotionsClassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CharmsClassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DefenceAgainstDarkArtsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OwleryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BridgeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CommonRoomsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GrimmauldPlaceEntranceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StaircaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GreatHallActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HogwartsExpressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HagridCabinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GreenHouseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClockTowerActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.PottermoreDEMOrpg" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1810794261274785~7683095692"/>
+    </application>
+
+</manifest>
